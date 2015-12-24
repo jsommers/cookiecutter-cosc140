@@ -1,6 +1,6 @@
 {
     "name": "COSC140 user",
     "email": "cosc140@localhost",
-    "repo_name": "cosc140_django",
-    "project_name": "{{ cookiecutter.repo_name }}"
+    "project_name": "cosc140 project",
+    "repo_name": "{{ cookiecutter.project_name|replace(' ','-') }}"
 }
