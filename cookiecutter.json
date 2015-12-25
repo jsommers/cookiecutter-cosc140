@@ -2,5 +2,5 @@
     "name": "COSC140 user",
     "email": "cosc140@localhost",
     "project_name": "cosc140 project",
-    "repo_name": "{{ cookiecutter.project_name|replace(' ','-') }}"
+    "repo_name": "{{ cookiecutter.project_name|lower|replace(' ','-') }}"
 }
